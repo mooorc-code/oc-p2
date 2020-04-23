@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>CV Marc Chartier</title>
 </head>
 
@@ -10,171 +11,184 @@
     <!-- header -->
         <header>
             <!-- header img -->
-            <div>
-                <img src="" alt="">
+            <div class="header_img">
+                <div class="img_inner">
+                    <img src="" alt="profil">                    
+                </div>                
             </div>
             <!-- header img end -->
 
             <!-- header title -->
-            <div>
+            <div class="header_title">
                 <h1>MARC CHARTIER</h1>
                 <h2>Développeur web freelance</h2>
             </div>
             <!-- header title end -->
         </header>
     <!-- header end -->
-
-    <!-- navbar -->
-        <nav>    
-            <!-- contact -->
-            <section>
-                <h2>CONTACT</h2>
-                <article>
-                    <ul>
-                        <li>Adresse<br>Paris, France</li>
-                        <li>Téléphone<br>06 00 00 00 00</li>
-                        <li>Email<br>nom@email.com</li>
-                        <li>>Site web<br>www.name.com</li>
-                        <li>Skype<br>@nom_dutilisateur</li>                    
-                    </ul>
-                </article>
-            </section>
-            <!-- contact end -->
-
-            <!-- about -->
-            <section>
-                <h2>A PROPOS DE MOI</h2>  
-                <article>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </article>          
-            </section>
-            <!-- about end -->
-
-            <!-- loisir -->
-            <section>
-                <h2>LOISIR</h2>
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>            
-            </section>
-            <!-- loisir end -->
-        </nav>
-    <!-- navbar end -->
-
-    <!-- main -->
-        <main>
-            <!-- formation -->
-            <section>   
-                <h2><img src="" alt="icon">FORMATION</h2>       
-                <article>
-                    <!-- date+loc -->
-                    <div>
-                        <img src="" alt="icon">
-                        <p>2020 - 2020 <br>Paris</p>
+    
+    <div class="container">
+        <!-- navbar -->
+            <nav>    
+                <!-- contact -->
+                <section class="nav_contact">
+                    <div class="title_contact">
+                        <h2>CONTACT</h2>
                     </div>
-                    <!-- titre+description -->
                     <div>
-                        <p><strong>OPENCLASSROOMS</strong></p>
+                        <ul>
+                            <li>Adresse<br>Paris, France</li>
+                            <li>Téléphone<br>06 00 00 00 00</li>
+                            <li>Email<br>nom@email.com</li>
+                            <li>Site web<br>www.name.com</li>
+                            <li>Skype<br>@nom_dutilisateur</li>                    
+                        </ul>
+                    </div>
+                </section>
+                <!-- contact end -->
+
+                <!-- about -->
+                <section class="nav_about">
+                    <div class="title_about">
+                        <h2>A PROPOS DE MOI</h2>
+                    </div>  
+                    <article>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </article>          
+                </section>
+                <!-- about end -->
+
+                <!-- loisir -->
+                <section class="nav_hobbies">
+                    <div class="title_hobbies">
+                        <h2>LOISIR</h2>
+                    </div>
+                    <div>
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>            
+                </section>
+                <!-- loisir end -->
+            </nav>
+        <!-- navbar end -->
+
+        <!-- main -->
+            <main>
+                <!-- formation -->
+                <section class="main_formation">   
+                    <h2><img src="" alt="icon">FORMATION</h2>       
+                    <article>
+                        <!-- date+loc -->
+                        <div>
+                            <img src="" alt="icon">
+                            <p>2020 - 2020 <br>Paris</p>
+                        </div>
+                        <!-- titre+description -->
+                        <div>
+                            <p><strong>OPENCLASSROOMS</strong></p>
+                            <p>
+                                Web Developper <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>                                        
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <!-- date+loc -->
+                        <div>
+                            <img src="" alt="icon">
+                            <p>2011 - 2014 <br>Cognac</p>
+                        </div>
+                        <!-- titre+description -->
+                        <div>
+                            <p><strong>LYCÉE JEAN MONNET</strong></p>
+                            <p>
+                                Comptabilité <br>
+                                baccalauréat professonnel de comptabilité option métier des services administratifs.
+                            </p>                                        
+                        </div>
+                    </article>
+                </section>
+                <!-- formation end -->
+
+                <!-- experience -->
+                <section class="main_experience">   
+                    <h2><img src="" alt="icon">EXPERIENCE PROFESSIONNELLE</h2>       
+                    <article>
+                        <!-- date+loc -->
+                        <div>
+                            <img src="" alt="icon">
+                            <p>mois/année - poste<br>lieux</p>
+                        </div>
+                        <!-- titre+description -->
+                        <div>
+                            <p><strong>WEB DEVELOPPER</strong></p>
+                            <p>
+                                Developper front-end <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>                                        
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <!-- date+loc -->
+                        <div>
+                            <img src="" alt="icon">
+                            <p>mois/année - poste<br>lieux</p>
+                        </div>
+                        <!-- titre+description -->
+                        <div>
+                            <p><strong>WEB DEVELOPPER</strong></p>
+                            <p>
+                                Developper front-end <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>                                        
+                        </div>
+                    </article>
+
+                    <article>
+                        <!-- date+loc -->
+                        <div>
+                            <img src="" alt="icon">
+                            <p>mois/année - poste<br>lieux</p>
+                        </div>
+                        <!-- titre+description -->
+                        <div>
+                            <p><strong>WEB DEVELOPPER</strong></p>
+                            <p>
+                                Developper front-end <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>                                        
+                        </div>
+                    </article>
+                </section>
+                <!-- experience end -->
+
+                <!-- recommandations -->
+                <section class="main_recommandation">
+                    <h2><img src="" alt="icon">RECOMMANDATIONS</h2>
+                    <aside>
                         <p>
-                            Web Developper <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>                                        
-                    </div>
-                </article>
-                
-                <article>
-                    <!-- date+loc -->
-                    <div>
-                        <img src="" alt="icon">
-                        <p>2011 - 2014 <br>Cognac</p>
-                    </div>
-                    <!-- titre+description -->
-                    <div>
-                        <p><strong>LYCÉE JEAN MONNET</strong></p>
-                        <p>
-                            Comptabilité <br>
-                            baccalauréat professonnel de comptabilité option métier des services administratifs.
-                        </p>                                        
-                    </div>
-                </article>
-            </section>
-            <!-- formation end -->
+                            MAXIME KIEMAN <br>
+                            directeur, mon agence <br>
+                            Téléphone : 06 00 00 00 00 <br>
+                            Email : name@email.com
+                        </p>
+                    </aside>
 
-            <!-- experience -->
-            <section>   
-                <h2><img src="" alt="icon">EXPERIENCE PROFESSIONNELLE</h2>       
-                <article>
-                    <!-- date+loc -->
-                    <div>
-                        <img src="" alt="icon">
-                        <p>mois/année - poste<br>lieux</p>
-                    </div>
-                    <!-- titre+description -->
-                    <div>
-                        <p><strong>WEB DEVELOPPER</strong></p>
+                    <aside>
                         <p>
-                            Developper front-end <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>                                        
-                    </div>
-                </article>
-                
-                <article>
-                    <!-- date+loc -->
-                    <div>
-                        <img src="" alt="icon">
-                        <p>mois/année - poste<br>lieux</p>
-                    </div>
-                    <!-- titre+description -->
-                    <div>
-                        <p><strong>WEB DEVELOPPER</strong></p>
-                        <p>
-                            Developper front-end <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>                                        
-                    </div>
-                </article>
-
-                <article>
-                    <!-- date+loc -->
-                    <div>
-                        <img src="" alt="icon">
-                        <p>mois/année - poste<br>lieux</p>
-                    </div>
-                    <!-- titre+description -->
-                    <div>
-                        <p><strong>WEB DEVELOPPER</strong></p>
-                        <p>
-                            Developper front-end <br>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        </p>                                        
-                    </div>
-                </article>
-            </section>
-            <!-- experience end -->
-            <section>
-                <h2><img src="" alt="icon">RECOMMANDATIONS</h2>
-                <aside>
-                    <p>
-                        MAXIME KIEMAN <br>
-                        directeur, mon agence <br>
-                        Téléphone : 06 00 00 00 00 <br>
-                        Email : name@email.com
-                    </p>
-                </aside>
-
-                <aside>
-                    <p>
-                        MAXIME KIEMAN <br>
-                        directeur, mon agence <br>
-                        Téléphone : 06 00 00 00 00 <br>
-                        Email : name@email.com
-                    </p>
-                </aside>
-            </section>                            
-        </main>
-    <!-- main end -->
+                            MAXIME KIEMAN <br>
+                            directeur, mon agence <br>
+                            Téléphone : 06 00 00 00 00 <br>
+                            Email : name@email.com
+                        </p>
+                    </aside>
+                </section>
+                <!-- recommandations end -->                            
+            </main>
+        <!-- main end -->
+    </div>
 </body>
 </html>
