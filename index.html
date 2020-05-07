@@ -3,190 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/font.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>CV Marc Chartier</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+
+    <title>Marc Chartier</title>
 </head>
-
 <body>
-    <!-- header -->
-        <header>
-            <!-- header img -->
-            <div class="header_img">
-                <div class="img_inner">
-                    <img src="image/img_profil.png" alt="profil">
-                </div>                
+
+ <!-- navbar -->
+    <nav>
+        <!-- img -->
+        <div id="img_block">
+            <img class="img_inner" src="image/img_profil.jpg" alt="profil">
+        </div>
+        <!-- img end -->
+
+        <!-- contact -->
+        <section id="block_contact">
+            <h3 class="title_contact">CONTACT</h3>
+            <ul>
+                <li>Adresse<br>Cognac, France</li>
+                <li>Téléphone<br>06 17 08 18 85</li>
+                <li>Email<br>nom@email.com</li>
+<!--                <li>Site web<br>www.name.com</li>-->
+<!--                <li>Skype<br>@nom_dutilisateur</li>-->
+            </ul>
+        </section>
+        <!-- contact end -->
+
+        <!-- about -->
+        <section id="block_about">
+            <h3 class="title_about">A PROPOS DE MOI</h3>
+
+            <article class="about">
+                <p>Ancien comptable en pleine reconvertion professionnelle dans le domaine du développement web, je dispose d'une bonne capacitée d'adaptation ainsi que d'une grande motivation.
+                    <br>
+                    <br>
+                    Je suis passionné de hardware et ma bonne humeur est contagieuse.
+                </p>
+            </article>
+        </section>
+        <!-- about end -->
+
+        <!-- loisir -->
+        <section id="block_hobbies">
+            <h3 class="title_hobbies">LOISIR</h3>
+            <div class="hobbies">
+                <i class="fas fa-guitar"></i>
+                <i class="fab fa-steam-symbol"></i>
+                <i class="fab fa-untappd"></i>
             </div>
-            <!-- header img end -->
+        </section>
+        <!-- loisir end -->
+    </nav>
+    <!-- navbar end -->
 
-            <!-- header title -->
-            <div class="header_title">
-                <h1>MARC CHARTIER</h1>
-                <h2>Développeur web freelance</h2>
+    <!-- main -->
+    <main>
+        <!-- header title -->
+        <div class="header_title">
+            <h1><span id="firstname_color">MARC</span> CHARTIER</h1>
+            <h2>Développeur web freelance</h2>
+        </div>
+        <!-- header title end -->
+
+        <!-- formation -->
+        <section class="main_container">
+            <h3 id="title_formations"><i class="fas fa-graduation-cap"></i> FORMATIONS</h3>
+            <div class="block_container">
+                <!-- date+loc -->
+                <div class="block_date">
+                    <i class="far fa-dot-circle"></i>
+                    <p>2020 - En cours <br>Cognac</p>
+                </div>
+                <!-- titre+description -->
+                <div class="block_desc">
+                    <h4>OPENCLASSROOMS</h4>
+                    <h5>Web Developper</h5>
+                    <p>Formation diplômante 100% en ligne dans le domaine du développement web. La formation se déroule sous forme de projet encadré par les mentors d'openclasserooms.
+                    </p>
+                </div>
             </div>
-            <!-- header title end -->
-        </header>
-    <!-- header end -->
-    
-    <div class="container">
-        <!-- navbar -->
-            <nav>    
-                <!-- contact -->
-                <section class="nav_contact">
-                    
-                        <h2 class="title_contact">CONTACT</h2>
-                    
-                    <div>
-                        <ul>
-                            <li>Adresse<br>Paris, France</li>
-                            <li>Téléphone<br>06 00 00 00 00</li>
-                            <li>Email<br>nom@email.com</li>
-                            <li>Site web<br>www.name.com</li>
-                            <li>Skype<br>@nom_dutilisateur</li>                    
-                        </ul>
-                    </div>
+
+            <div class="block_container">
+                <!-- date+loc -->
+                <div class="block_date">
+                    <i class="fas fa-circle"></i>
+                    <p>2011 - 2014 <br>Cognac</p>
+                </div>
+                <!-- titre+description -->
+                <div class="block_desc">
+                    <h3>LYCÉE JEAN MONNET</h3>
+                    <p>Comptabilité</p>
+                    <p>baccalauréat professonnel de comptabilité option métier des services administratifs.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- formation end -->
+
+        <!-- experience -->
+        <div class="main_container">
+            <h3 id="title_experiences"><i class="fas fa-briefcase"></i> EXPERIENCES PROFESSIONNELLES</h3>
+            <div class="block_container">
+                <!-- date+loc -->
+                <div class="block_date">
+                    <i class="far fa-dot-circle"></i>
+                    <p>Janvier 2020 - Février 2020<br>Angoulême</p>
+                </div>
+                <!-- titre+description -->
+                <div class="block_desc">
+                    <h4>FRANCE BILLET</h4>
+
+                    <h5>Chef d'équipe </h5>
+
+                    <p>Gestion d'une équipe dans un point de vente et d'information pour la 47e édition du festival de la Bande Dessinée d'Angoulême.
+                    </p>
+                </div>
+            </div>
+
+            <div class="block_container">
+                <!-- date+loc -->
+                <div class="block_date">
+                    <i class="fas fa-circle"></i>
+                    <p>Février 2018 - Août 2019<br>Segonzac</p>
+                </div>
+                <!-- titre+description -->
+                <div class="block_desc">
+                    <h4>SARL BEAUDELIN GUERBÉ</h4>
+
+                    <h5>Assistant comptable </h5>
+
+                    <p>Acceuil physique et téléphonique au sein de l'entreprise, gestion du registre clients, saisi de la facturation et de la comptabilé ainsi que la saisie des contrats de travail.
+                    </p>
+                </div>
+            </div>
+
+            <div class="block_container">
+                <!-- date+loc -->
+                <div class="block_date">
+                    <i class="fas fa-circle"></i>
+                    <p>Décembre 2014 - Septembre 2015<br>Châteaubernard</p>
+                </div>
+                <!-- titre+description -->
+                <div class="block_desc">
+                    <h4>ORPEA</h4>
+
+                    <h5>Gestionnaire administratif</h5>
+
+                    <p>En charge de l'acceuil physique et téléphonique des clients, facturation, démarche commerciale, gestion du courrier et des dossiers du personnel
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- experience end -->
+
+        <!-- recommandations -->
+        <div class="main_container">
+            <h3 id="title_recommandations"><i class="fas fa-pencil-alt"></i>RECOMMANDATIONS</h3>
+
+            <div class="block_container_rec">
+                <section class="block_rec">
+                    <p>
+                        CHRISTOPHE GILLES <br>
+                        Mentor, chez Openclassrooms <br>
+                        Téléphone : 06 40 91 39 46 <br>
+                        Email : contact@cgilles.com
+                    </p>
                 </section>
-                <!-- contact end -->
-
-                <!-- about -->
-                <section class="nav_about">
-
-                        <h2 class="title_about">A PROPOS DE MOI</h2>
-
-                    <article>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </article>          
-                </section>
-                <!-- about end -->
-
-                <!-- loisir -->
-                <section class="nav_hobbies">
-                    <h2 class="title_hobbies">LOISIR</h2>
-                    <div>
-                        <img src="" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
-                    </div>            
-                </section>
-                <!-- loisir end -->
-            </nav>
-        <!-- navbar end -->
-
-        <!-- main -->
-            <main>
-                <!-- formation -->
-                <section class="main_formation">   
-                    <h2><img src="" alt="icon">FORMATION</h2>       
-                    <article>
-                        <!-- date+loc -->
-                        <div>
-                            <img src="" alt="icon">
-                            <p>2020 - 2020 <br>Paris</p>
-                        </div>
-                        <!-- titre+description -->
-                        <div>
-                            <p><strong>OPENCLASSROOMS</strong></p>
-                            <p>
-                                Web Developper <br>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>                                        
-                        </div>
-                    </article>
-                    
-                    <article>
-                        <!-- date+loc -->
-                        <div>
-                            <img src="" alt="icon">
-                            <p>2011 - 2014 <br>Cognac</p>
-                        </div>
-                        <!-- titre+description -->
-                        <div>
-                            <p><strong>LYCÉE JEAN MONNET</strong></p>
-                            <p>
-                                Comptabilité <br>
-                                baccalauréat professonnel de comptabilité option métier des services administratifs.
-                            </p>                                        
-                        </div>
-                    </article>
-                </section>
-                <!-- formation end -->
-
-                <!-- experience -->
-                <section class="main_experience">   
-                    <h2><img src="" alt="icon">EXPERIENCE PROFESSIONNELLE</h2>       
-                    <article>
-                        <!-- date+loc -->
-                        <div>
-                            <img src="" alt="icon">
-                            <p>mois/année - poste<br>lieux</p>
-                        </div>
-                        <!-- titre+description -->
-                        <div>
-                            <p><strong>WEB DEVELOPPER</strong></p>
-                            <p>
-                                Developper front-end <br>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>                                        
-                        </div>
-                    </article>
-                    
-                    <article>
-                        <!-- date+loc -->
-                        <div>
-                            <img src="" alt="icon">
-                            <p>mois/année - poste<br>lieux</p>
-                        </div>
-                        <!-- titre+description -->
-                        <div>
-                            <p><strong>WEB DEVELOPPER</strong></p>
-                            <p>
-                                Developper front-end <br>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>                                        
-                        </div>
-                    </article>
-
-                    <article>
-                        <!-- date+loc -->
-                        <div>
-                            <img src="" alt="icon">
-                            <p>mois/année - poste<br>lieux</p>
-                        </div>
-                        <!-- titre+description -->
-                        <div>
-                            <p><strong>WEB DEVELOPPER</strong></p>
-                            <p>
-                                Developper front-end <br>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                            </p>                                        
-                        </div>
-                    </article>
-                </section>
-                <!-- experience end -->
-
-                <!-- recommandations -->
-                <section class="main_recommandation">
-                    <h2><img src="" alt="icon">RECOMMANDATIONS</h2>
-                    <aside>
-                        <p>
-                            MAXIME KIEMAN <br>
-                            directeur, mon agence <br>
-                            Téléphone : 06 00 00 00 00 <br>
-                            Email : name@email.com
-                        </p>
-                    </aside>
-
-                    <aside>
-                        <p>
-                            MAXIME KIEMAN <br>
-                            directeur, mon agence <br>
-                            Téléphone : 06 00 00 00 00 <br>
-                            Email : name@email.com
-                        </p>
-                    </aside>
-                </section>
-                <!-- recommandations end -->                            
-            </main>
-        <!-- main end -->
-    </div>
+            </div>
+        </div>
+        <!-- recommandations end -->
+    </main>
+    <!-- main end -->
+ <script src="Js/all.min.js"></script>
 </body>
 </html>
