@@ -1,3 +1,6 @@
+/************************************************
+*                       BODY
+************************************************/
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +10,10 @@ body {
 h1, h2, h3 {
     padding: 0;
     font-family: 'robotoregular', sans-serif;
+}
+
+hr {
+    border: none;
 }
 
 p {
@@ -39,7 +46,6 @@ nav {
 #img_block {
     display: flex;
     justify-content: center;
-
 }
 
 .img_inner {
@@ -127,17 +133,14 @@ li {
 main {
     display: flex;
     flex-direction: column;
-    /*padding: 40px;*/
     text-align: justify;
     background-color: #0D2840;
-
 }
 
 .header_title {
     width: 100%;
     font-size: 20px;
     text-align: center;
-    padding: 10px;
 }
 
 #firstname_color {
@@ -149,7 +152,7 @@ main {
     margin-bottom: 40px;
 }
 
-.block_container{
+.block_container {
     padding: 40px;
 }
 
@@ -165,21 +168,11 @@ main {
     padding-top: 5px;
 }
 
-.title_formations {
-    padding: 10px;
-    text-align: center;
-    background-color: #3F5F73;
-    color: #0D2840;
+.block_rec {
+    padding: 40px;
 }
 
-.title_experiences {
-    padding: 10px;
-    text-align: center;
-    background-color: #3F5F73;
-    color: #0D2840;
-}
-
-.title_recommandations {
+.title {
     padding: 10px;
     text-align: center;
     background-color: #3F5F73;

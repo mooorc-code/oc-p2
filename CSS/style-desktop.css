@@ -1,39 +1,9 @@
-/* color
-
-nav background-color: #093637;
-title background-color: #404040;
-
-*/
-
-
 /************************************************
 *                       BODY
 ************************************************/
 body {
     display: flex;
-    margin: 0;
-    padding: 0;
-    font-family: 'ambleregular', sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: 'robotoregular', sans-serif;
-}
-
-p {
-    margin: 15px 0 10px 0;
-}
-
-.mr10 {
-    margin-right: 10px;
-}
-
-.mt15 {
-    margin-top: 15px;
-}
-
-.mb10 {
-    margin-bottom: 10px;
+    background-color: #eee;
 }
 
 /************************************************
@@ -41,144 +11,66 @@ p {
 ************************************************/
 nav {
     display: flex;
-    flex-direction: column;
     width: 30%;
-    height: auto;
-    background-color: #0D2840;
-}
-
-/******************** img *********************/
-#img_block {
-    display: flex;
-    justify-content: center;
-
-}
-
-.img_inner {
-    border-radius: 50%;
-    border: 3px solid #BF8C6F;
-    margin: 25px;
-}
-
-img {
-    width: 140px;
-    height: 150px;
 }
 
 /******************** contact *********************/
 #block_contact {
-    width: 100%;
     height: 30%;
 }
 
-.title_contact {
-    padding: 10px;
-    text-align: center;
-    background-color: #3F5F73;
-    color: #0D2840;
-}
-
 ul {
-    list-style-type: none;
     margin: 25px;
     padding: 30px;
-    color: #BF8C6F;
-}
-
-li {
-    margin-bottom: 15px;
 }
 
 /********************* about *********************/
 #block_about {
-    width: 100%;
     height: 50%;
 }
 
-.title_about {
-    padding: 10px;
-    text-align: center;
-    background-color: #3F5F73;
-    color: #0D2840;
-}
-
 .about {
-    margin: 20px;
     padding: 30px;
-    text-align: justify;
-    color: #BF8C6F;
 }
 
 /******************* hobbies *********************/
-#block_hobbies {
-    width: 100%;
-}
-
-.title_hobbies {
-    padding: 10px;
-    text-align: center;
-    background-color: #3F5F73;
-    color: #0D2840;
-}
-
 .hobbies {
-    margin: 25px;
     padding: 15px;
-    text-align: center;
 }
-
-.border-icons {
-    border-radius: 50% !important;
-    border: 2px solid #3F5F73 !important;
-    padding: 10px;
-    color: #BF8C6F;
-}
-
 
 /************************************************
 *                       main
 ************************************************/
+
 main {
-    display: flex;
-    flex-direction: column;
-    /*border: 3px solid darkblue;*/
     width: 70%;
-    text-align: justify;
     background-color: #eee;
+    margin: 40px;
+}
+
+.header_title > hr {
+    position: absolute;
+    width: 104px;
+    top: 167px;
+    left: 0;
+    margin: 0;
+    border: 1px solid #BF8C6F
 }
 
 .header_title {
+    position: relative;
+    text-align: left;
     font-size: 25px;
-}
-
-#firstname_color {
-    color: #BF8C6F;
-}
-
-.main_container {
-    /*border: 2px solid darkred;*/
-    width: 100%;
-    margin-bottom: 40px;
 }
 
 .block_container {
     display: flex;
-    flex-direction: row;
-    /*border: 1px solid violet;*/
+    padding: 0;
 }
 
 .block_date {
-    display: flex;
     width: 30%;
     margin: 25px 25px 25px 0;
-    /*border: 1px solid orange;*/
-}
-
-.block_date i {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 25px;
-    padding-top: 5px;
 }
 
 .block_desc {
@@ -189,25 +81,18 @@ main {
 
 .block_container_rec {
     display: flex;
+    margin-left: 25px;
     /*border: 1px solid violet;*/
 }
 
 .block_rec {
-    width: 50%;
     margin: 25px 25px 25px 0;
+    padding: 0;
 }
 
-.title_formations {
+.title {
     border-bottom: 2px solid #BF8C6F;
-    padding-bottom: 10px;
+    text-align: left;
+    background-color: #eee;
 }
 
-.title_experiences {
-    border-bottom: 2px solid #BF8C6F;
-    padding-bottom: 10px;
-}
-
-.title_recommandations {
-    border-bottom: 2px solid #BF8C6F;
-    padding-bottom: 10px;
-}
