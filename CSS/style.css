@@ -134,7 +134,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    background-color: #0D2840;
+    background-color: #EEE;
 }
 
 .header_title {

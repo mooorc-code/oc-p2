@@ -4,8 +4,6 @@ nav {
     grid-gap: 20px;
 }
 
-.header_title {
-    background-color: #eee;
+main {
+    background-color: #EEE
 }
-
-
