@@ -7,9 +7,9 @@ body {
 }
 
 /************************************************
-*                       nav
+*                  column_left
 ************************************************/
-nav {
+#column_left {
     display: flex;
     width: 30%;
 }
@@ -51,7 +51,7 @@ main {
 .header_title > hr {
     position: absolute;
     width: 104px;
-    top: 167px;
+    top: 190px;
     left: 0;
     margin: 0;
     border: 1px solid #BF8C6F
@@ -77,12 +77,6 @@ main {
     width: 70%;
     margin: 25px;
     /*border: 1px solid orange;*/
-}
-
-.block_container_rec {
-    display: flex;
-    margin-left: 25px;
-    /*border: 1px solid violet;*/
 }
 
 .block_rec {

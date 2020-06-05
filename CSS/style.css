@@ -33,9 +33,9 @@ p {
 }
 
 /************************************************
-*                       nav
+*                  column left
 ************************************************/
-nav {
+#column_left {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -43,15 +43,11 @@ nav {
 }
 
 /******************** img *********************/
-#img_block {
-    display: flex;
-    justify-content: center;
-}
-
 .img_inner {
     border-radius: 50%;
     border: 3px solid #BF8C6F;
-    margin: 25px;
+    display: inline-block;
+    margin: 25px auto;
 }
 
 img {
