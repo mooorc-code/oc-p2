@@ -1,0 +1,177 @@
+/************************************************
+*                       BODY
+************************************************/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'ambleregular', sans-serif;
+}
+
+h1, h2, h3 {
+    padding: 0;
+    font-family: 'robotoregular', sans-serif;
+}
+
+hr {
+    border: none;
+}
+
+p {
+    margin: 15px 0 10px 0;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+/************************************************
+*                  column left
+************************************************/
+#column_left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0D2840;
+}
+
+/******************** img *********************/
+.img_inner {
+    border-radius: 50%;
+    border: 3px solid #BF8C6F;
+    display: inline-block;
+    margin: 25px auto;
+}
+
+img {
+    width: 140px;
+    height: 150px;
+}
+
+/******************** contact *********************/
+#block_contact {
+    width: 100%;
+}
+
+.title_contact {
+    padding: 10px;
+    text-align: center;
+    background-color: #3F5F73;
+    color: #0D2840;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    color: #BF8C6F;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/********************* about *********************/
+#block_about {
+    width: 100%;
+}
+
+.title_about {
+    padding: 10px;
+    text-align: center;
+    background-color: #3F5F73;
+    color: #0D2840;
+}
+
+.about {
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    color: #BF8C6F;
+}
+
+/******************* hobbies *********************/
+#block_hobbies {
+    width: 100%;
+}
+
+.title_hobbies {
+    padding: 10px;
+    text-align: center;
+    background-color: #3F5F73;
+    color: #0D2840;
+}
+
+.hobbies {
+    margin: 25px;
+    text-align: center;
+}
+
+.border-icons {
+    border-radius: 50%;
+    border: 2px solid #3F5F73;
+    width: 50px !important;
+    height: 50px;
+    padding: 15px;
+    color: #BF8C6F;
+}
+
+/************************************************
+*                       main
+************************************************/
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #EEE;
+}
+
+.header_title {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#firstname_color {
+    color: #BF8C6F;
+}
+
+.main_container {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.block_container {
+    padding: 40px;
+}
+
+.block_date {
+    display: flex;
+    margin-top: 25px;
+}
+
+.block_date i {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+.block_rec {
+    padding: 40px;
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+    background-color: #3F5F73;
+    color: #0D2840;
+}
+

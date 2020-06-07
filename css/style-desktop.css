@@ -1,0 +1,92 @@
+/************************************************
+*                       BODY
+************************************************/
+body {
+    display: flex;
+    background-color: #eee;
+}
+
+/************************************************
+*                  column_left
+************************************************/
+#column_left {
+    display: flex;
+    width: 30%;
+}
+
+/******************** contact *********************/
+#block_contact {
+    height: 30%;
+}
+
+ul {
+    margin: 25px;
+    padding: 30px;
+}
+
+/********************* about *********************/
+#block_about {
+    height: 50%;
+}
+
+.about {
+    padding: 30px;
+}
+
+/******************* hobbies *********************/
+.hobbies {
+    padding: 15px;
+}
+
+/************************************************
+*                       main
+************************************************/
+
+main {
+    width: 70%;
+    background-color: #eee;
+    margin: 40px;
+}
+
+.header_title > hr {
+    position: absolute;
+    width: 104px;
+    top: 190px;
+    left: 0;
+    margin: 0;
+    border: 1px solid #BF8C6F
+}
+
+.header_title {
+    position: relative;
+    text-align: left;
+    font-size: 25px;
+}
+
+.block_container {
+    display: flex;
+    padding: 0;
+}
+
+.block_date {
+    width: 30%;
+    margin: 25px 25px 25px 0;
+}
+
+.block_desc {
+    width: 70%;
+    margin: 25px;
+    /*border: 1px solid orange;*/
+}
+
+.block_rec {
+    margin: 25px 25px 25px 0;
+    padding: 0;
+}
+
+.title {
+    border-bottom: 2px solid #BF8C6F;
+    text-align: left;
+    background-color: #eee;
+}
+
